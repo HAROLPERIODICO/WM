@@ -1,7 +1,7 @@
 {
-  "name": "marc-palas-react",
+  "name": "WMpalas",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
+    "express": "^5.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.0",
@@ -20,5 +21,10 @@
     "postcss": "^8.4.0",
     "tailwindcss": "^3.4.0",
     "vite": "^5.0.0"
-  }
+  },
+  "description": "Web echa con react y versel",
+  "main": "app.jsx",
+  "repository": "https://github.com/HAROLPERIODICO/WM.git",
+  "author": "Harol Díaz",
+  "license": "MIT"
 }
