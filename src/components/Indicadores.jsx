@@ -6,37 +6,37 @@ const indicadoresData = [
     id: "dis-meta",
     titulo: "DIS - Meta Mensual",
     descripcion: "Indicador que muestra el rendimiento mensual en relación con la meta establecida.",
-    imagen: "/img/logo75.png",
+    imagen: "/public/logo75.png",
   },
   {
     id: "dis-acumulada",
     titulo: "DIS - Acumulada",
     descripcion: "Acumulado de rendimiento DIS durante el año actual.",
-    imagen: "/img/logo75.png",
+    imagen: "/public/logo75.png",
   },
   {
     id: "mtbf",
     titulo: "MTBF",
     descripcion: "Tiempo medio entre fallos de los equipos monitoreados.",
-    imagen: "/img/logo75.png",
+    imagen: "/public/logo75.png",
   },
   {
     id: "mtfs",
     titulo: "MTFS",
     descripcion: "Tiempo medio para el fallo de seguridad operacional.",
-    imagen: "/img/logo75.png",
+    imagen: "/public/logo75.png",
   },
   {
     id: "mtbs",
     titulo: "MTBS",
     descripcion: "Tiempo medio entre mantenimientos básicos.",
-    imagen: "/img/logo75.png",
+    imagen: "/public/logo75.png",
   },
   {
     id: "imprevisto",
     titulo: "Imprevistos",
     descripcion: "Eventos no programados que afectaron la operación.",
-    imagen: "/img/logo75.png",
+    imagen: "/public/logo75.png",
   },
 ];
 
