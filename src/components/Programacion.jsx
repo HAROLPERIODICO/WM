@@ -18,7 +18,7 @@ export default function Programacion() {
 
           <div className="bg-gray-100 p-6 rounded-lg shadow">
             <h3 className="text-2xl font-semibold mb-2">Turno NOCTURNO</h3>
-            <p className="mb-4">Programación a realizar en el turno A2.</p>
+            <p className="mb-4">Programación a realizar en el turno A2. turno nocturno de marc marc pal</p>
             <img
               src="img/logo75.png"
               alt="Programación A2"
