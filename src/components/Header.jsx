@@ -35,12 +35,12 @@ const Header = () => {
           <nav className="hidden md:flex space-x-6" id="nav">
             <ul className="flex space-x-4" id="menu">
               <li><a href="#indicadores" className="hover:text-yellow-400 hover:underline decoration-sky-500">Indicadores</a></li>
-              <li><a href="#nosotros" className="hover:text-yellow-400">Nosotros</a></li>
-              <li><a href="#status" className="hover:text-yellow-400">Estatus</a></li>
-              <li><a href="#programacion" className="hover:text-yellow-400">Programación</a></li>
-              <li><a href="#re" className="hover:text-yellow-400">RE</a></li>
-              <li><a href="#backlog" className="hover:text-yellow-400">BACKLOG</a></li>
-              <li><a href="#inspecciones" className="hover:text-yellow-400">Inspecciones</a></li>
+              <li><a href="#nosotros" className="hover:text-yellow-400 hover:underline decoration-sky-500">Nosotros</a></li>
+              <li><a href="#status" className="hover:text-yellow-400 hover:underline decoration-sky-500">Estatus</a></li>
+              <li><a href="#programacion" className="hover:text-yellow-400 hover:underline decoration-sky-500">Programación</a></li>
+              <li><a href="#re" className="hover:text-yellow-400 hover:underline decoration-sky-500">RE</a></li>
+              <li><a href="#backlog" className="hover:text-yellow-400 hover:underline decoration-sky-500">BACKLOG</a></li>
+              <li><a href="#inspecciones" className="hover:text-yellow-400 hover:underline decoration-sky-500">Inspecciones</a></li>
             </ul>
           </nav>
         </div>
