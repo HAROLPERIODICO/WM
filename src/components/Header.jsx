@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       {/* Logos CHM */}
-      <div className="w-full flex justify-between items-center p-2 bg-white">
+      <div className="w-full flex justify-between items-center p-4 bg-white">
         <img src="/logochm.png" alt="Logo CHM" className="h-10 object-contain" loading="lazy" />
         <img src="/banderachm.png" alt="Bandera CHM" className="h-10 object-contain" loading="lazy" />
       </div>
@@ -16,7 +16,7 @@ const Header = () => {
           {/* Logo y título */}
           <h1 className="flex items-center gap-2 text-lg font-semibold">
             <a href="#" className="flex items-center gap-2">
-              <img src="/public/logo75.png" alt="Logo MARC PALAS" className="h-10" loading="lazy" />
+              <img src="/logo75.png" alt="Logo MARC PALAS" className="h-10" loading="lazy" />
               Work Management PALAS Cerrejón
             </a>
           </h1>
