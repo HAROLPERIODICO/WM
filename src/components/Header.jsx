@@ -5,13 +5,13 @@ const Header = () => {
   return (
     <>
       {/* Contenedor fijo para logos CHM */}
-      <div className="fixed top-0 left-0 w-full flex justify-between items-center p-2 bg-blue z-20">
+      <div className="fix top-0 left-0 w-full flex justify-between items-center p-2 bg-white z-20">
         <img src="/logochm.png" alt="Logo CHM" className="h-10 object-contain" loading="lazy" />
         <img src="/banderachm.png" alt="Bandera CHM" className="h-10 object-contain" loading="lazy" />
       </div>
 
       {/* Encabezado principal con posición fija */}
-      <header className="fixed top-16 left-0 w-full bg-blue-900 text-white shadow-md z-100" id="main-header">
+      <header className="fixed top-16 left-0 w-full bg-blue-900 text-white shadow-md z-10" id="main-header">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           {/* Logo y título */}
           <h1 className="flex items-center gap-2 text-lg font-semibold">
