@@ -6,7 +6,7 @@ const indicadoresData = [
     id: "dis-meta",
     titulo: "DIS - Meta Mensual",
     descripcion: "Indicador que muestra el rendimiento mensual en relación con la meta establecida.",
-    <img src="/logo75.png" alt="Logo CHM" className="h-10 object-contain" loading="lazy" />
+    imagen: "/logo75.png",
   },
   {
     id: "dis-acumulada",
