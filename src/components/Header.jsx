@@ -34,7 +34,7 @@ const Header = () => {
           {/* Navegación */}
           <nav className="hidden md:flex space-x-6" id="nav">
             <ul className="flex space-x-4" id="menu">
-              <li><a href="#indicadores" className="hover:text-yellow-400">Indicadores</a></li>
+              <li><a href="#indicadores" className="hover:text-yellow-400 underline decoration-{blue}-weight">Indicadores</a></li>
               <li><a href="#nosotros" className="hover:text-yellow-400">Nosotros</a></li>
               <li><a href="#status" className="hover:text-yellow-400">Estatus</a></li>
               <li><a href="#programacion" className="hover:text-yellow-400">Programación</a></li>
