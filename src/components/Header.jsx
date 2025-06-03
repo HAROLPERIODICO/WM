@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <>
       {/* Logos CHM */}
-      <div className="w-full flex justify-between items-center p-2 bg-white">
+      <div className="w-full flex justify-between items-center bg-white">
         <img src="/logochm.png" alt="Logo CHM" className="fixed h-10 object-contain" loading="lazy" />
-        <img src="/banderachm.png" alt="Bandera CHM" className="fixed right-10 h-10 object-contain" loading="lazy" />
+        <img src="/banderachm.png" alt="Bandera CHM" className="fixed right-2 h-10 object-contain" loading="lazy" />
       </div>
 
       {/* Encabezado principal */}
