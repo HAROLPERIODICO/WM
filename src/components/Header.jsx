@@ -20,7 +20,7 @@ const Header = () => {
               PALAS Cerrejón
             </a>
           </h1>
-        <img src="/logochm.png" alt="Logo CHM" className="fixed top-2 h-10 object-contain" loading="lazy" />
+        <img src="/logochm.png" alt="Logo CHM" className="fixed left-2 top-2 h-10 object-contain" loading="lazy" />
         <img src="/banderachm.png" alt="Bandera CHM" className="fixed right-2 top-2 h-10 object-contain" loading="lazy" />
           {/* Menú hamburguesa */}
           <button
