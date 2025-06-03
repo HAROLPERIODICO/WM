@@ -6,8 +6,7 @@ const Header = () => {
     <>
       {/* Logos CHM */}
       <div className="w-full flex justify-between items-center p-2 bg-white">
-        <img src="/logochm.png" alt="Logo CHM" className="h-10 object-contain" loading="lazy" />
-        <img src="/banderachm.png" alt="Bandera CHM" className="h-10 object-contain" loading="lazy" />
+
       </div>
 
       {/* Encabezado principal */}
@@ -21,7 +20,8 @@ const Header = () => {
               PALAS Cerrejón
             </a>
           </h1>
-
+        <img src="/logochm.png" alt="Logo CHM" className="h-10 object-contain" loading="lazy" />
+        <img src="/banderachm.png" alt="Bandera CHM" className="h-10 object-contain" loading="lazy" />
           {/* Menú hamburguesa */}
           <button
             className="text-2xl md:hidden"
