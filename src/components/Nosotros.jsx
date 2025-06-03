@@ -15,19 +15,19 @@ export default function Nosotros() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src="img/pala2.png" alt="" loading="lazy" className="mx-auto" />
+            <img src="/pala2.png" alt="" loading="lazy" className="mx-auto" />
             <p className="mt-4 font-medium"><strong>Compromiso</strong>: Nos dedicamos con pasión a cada proyecto.</p>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="img/cargue2.png" alt="" loading="lazy" className="mx-auto" />
+            <img src="/cargue2.png" alt="" loading="lazy" className="mx-auto" />
             <p className="mt-4 font-medium"><strong>Trabajo en equipo</strong>: La colaboración es nuestra base.</p>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="img/procontours2.png" alt="" loading="lazy" className="mx-auto" />
+            <img src="/procontours2.png" alt="" loading="lazy" className="mx-auto" />
             <p className="mt-4 font-medium"><strong>Innovación</strong>: Buscamos siempre mejorar y evolucionar.</p>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="img/thermal1.png" alt="" loading="lazy" className="mx-auto" />
+            <img src="/thermal1.png" alt="" loading="lazy" className="mx-auto" />
             <p className="mt-4 font-medium"><strong>Seguridad</strong>: Cuidamos a nuestro equipo en cada paso.</p>
           </SwiperSlide>
         </Swiper>
@@ -46,7 +46,7 @@ export default function Nosotros() {
           </p>
         </div>
         <div className="md:w-1/2">
-          <img src="img/pala800.png" alt="Nuestro equipo" loading="lazy" className="w-full rounded-xl shadow" />
+          <img src="/pala800.png" alt="Nuestro equipo" loading="lazy" className="w-full rounded-xl shadow" />
         </div>
       </div>
     </section>
