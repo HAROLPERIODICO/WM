@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       {/* Logos CHM */}
-      <div className="w-full flex justify-between items-center p-2 bg-white">
+      <div className="fixed top-0 left-0 w-full flex justify-between items-center p-2 bg-white z-10">
         <img src="/logochm.png" alt="Logo CHM" className="h-10 object-contain" loading="lazy" />
         <img src="/banderachm.png" alt="Bandera CHM" className="h-10 object-contain" loading="lazy" />
       </div>
@@ -28,7 +28,7 @@ const Header = () => {
             id="menu-toggle"
             aria-label="Abrir menú"
           >
-            &#9776;
+            &
           </button>
 
           {/* Navegación */}
