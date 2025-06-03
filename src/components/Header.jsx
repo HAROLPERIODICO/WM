@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       {/* Contenedor fijo para logos CHM */}
-      <div className="fix top-0 left-0 w-full flex justify-between items-center p-2 bg-white z-20">
+      <div className="w-full flex justify-between items-center p-2 bg-white">
         <img src="/logochm.png" alt="Logo CHM" className="h-10 object-contain" loading="lazy" />
         <img src="/banderachm.png" alt="Bandera CHM" className="h-10 object-contain" loading="lazy" />
       </div>
