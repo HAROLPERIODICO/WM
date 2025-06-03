@@ -11,7 +11,7 @@ const Header = () => {
       </div>
 
       {/* Encabezado principal con posición fija */}
-      <header className="fixed top-16 left-0 w-full bg-blue-900 text-white shadow-md z-10" id="main-header">
+      <header className="fixed top-16 left-0 w-full bg-blue-900 text-white shadow-md z-100" id="main-header">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           {/* Logo y título */}
           <h1 className="flex items-center gap-2 text-lg font-semibold">
