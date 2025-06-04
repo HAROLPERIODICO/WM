@@ -15,8 +15,9 @@ const Header = () => {
       id="menu-toggle"
       aria-label="Abrir menú"
       onClick={toggleMenu}
+         &#9776;
     >
-      &#9776;
+     
     </button>
 
     {/* Navegación */}
