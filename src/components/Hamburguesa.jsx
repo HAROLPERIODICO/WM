@@ -9,11 +9,13 @@ const Header = () => {
 
   return (
     
-      {/* Menú hamburguesa */}
-    <button className="text-2xl top-1 md:hidden" id="menu-toggle" aria-label="Abrir menú" onClick={toggleMenu}
-    >
-     &#9776;
-    </button>
+           <button
+            className="text-2xl md:hidden"
+            id="menu-toggle"
+            aria-label="Abrir menú"
+          >
+            &#9776;
+          </button>
 
     {/* Navegación */}
     <nav
