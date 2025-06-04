@@ -18,7 +18,7 @@ const Header = () => {
         &#9776;
       </button>
       <nav
-        className={${menuAbierto ? "block" : "hidden"} md:block space-x-6}
+        className={${menuAbierto?"block":"hidden"} md:block space-x-6}
         id="nav"
       >
         <ul className="flex flex-col md:flex-row space-x-4" id="menu">
