@@ -63,6 +63,22 @@ const Footer = () => {
       <div className="mt-6 text-center text-sm text-gray-400">
         <p><strong>powered by HD SOFTWARE SOLUTIONS</strong> &copy; 2025 | Todos los derechos reservados.</p>
       </div>
+
+      <div className="fixed bottom-4 right-4 z-50 group">
+      <a
+        href="https://wa.me/573167543109"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-green-500 rounded-full p-3 shadow-lg hover:scale-105 transition-transform"
+        aria-label="Chatea por WhatsApp"
+      >
+        <FaWhatsapp className="text-white text-xl" />
+      </a>
+      <span className="absolute right-14 bottom-1/2 translate-y-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+        ¡Chatea con el asistente!
+      </span>
+    </div>
+
     </footer>
   );
 };
