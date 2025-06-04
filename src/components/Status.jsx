@@ -8,7 +8,7 @@ export default function Status() {
           <h3 className="text-2xl font-semibold mb-2">Equipos DOWN</h3>
           <p className="mb-4">Equipos que se presentan down</p>
           <img
-            src="img/logo75.png"
+            src="/logo75.png"
             alt="Equipos DOWN"
             loading="lazy"
             className="mx-auto w-24 h-auto"
