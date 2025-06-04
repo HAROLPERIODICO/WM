@@ -27,7 +27,7 @@ export default function Nosotros() {
             <p className="mt-4 font-medium"><strong>Innovación</strong>: Buscamos siempre mejorar y evolucionar.</p>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/thermal.png" alt="Thermal" loading="lazy" className="mx-auto" />
+            <img src="/thermal.PNG" alt="Thermal" loading="lazy" className="mx-auto" />
             <p className="mt-4 font-medium"><strong>Seguridad</strong>: Cuidamos a nuestro equipo en cada paso.</p>
           </SwiperSlide>
         </Swiper>
