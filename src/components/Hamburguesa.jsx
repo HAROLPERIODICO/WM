@@ -17,7 +17,7 @@ const Header = () => {
             &#9776;
           </button>
 
-      {/* Navegación */}
+     
     <nav
       className={`${
         menuAbierto ? "block" : "hidden"
