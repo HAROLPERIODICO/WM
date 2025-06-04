@@ -9,7 +9,7 @@ export default function Programacion() {
             <h3 className="text-2xl font-semibold mb-2">Turno DIURNO</h3>
             <p className="mb-4">Programación a realizar en el turno A1.</p>
             <img
-              src="img/logo75.png"
+              src="/logo75.png"
               alt="Programación A1"
               loading="lazy"
               className="w-24 h-auto mx-auto"
@@ -20,7 +20,7 @@ export default function Programacion() {
             <h3 className="text-2xl font-semibold mb-2">Turno NOCTURNO</h3>
             <p className="mb-4">Programación a realizar en el turno A2. turno nocturno de marc marc pal</p>
             <img
-              src="img/logo75.png"
+              src="/logo75.png"
               alt="Programación A2"
               loading="lazy"
               className="w-24 h-auto mx-auto"
