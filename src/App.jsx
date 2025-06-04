@@ -18,9 +18,9 @@ function App() {
       <Status />
       <Programacion /> 
       <SeccionRE />
-       <SeccionBacklog />
-  
-      
+      <SeccionBacklog />
+      <Hamburguesa />
+      <Footer />
     </>
   );
 }
