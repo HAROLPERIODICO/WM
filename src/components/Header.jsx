@@ -27,9 +27,10 @@ const Header = () => {
             className="text-2xl top-1 md:hidden"
             id="menu-toggle"
             aria-label="Abrir menú"
-          
             &#9776;
            >
+         </button>
+        
           {/* Navegación */}
           <nav className="hidden md:flex space-x-6" id="nav">
             <ul className="flex space-x-4" id="menu">
