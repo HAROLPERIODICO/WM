@@ -22,14 +22,77 @@ const Header = () => {
         <img src="/logochm.png" alt="Logo CHM" className="fixed left-2 top-2 h-20 object-contain" loading="lazy" />
         <img src="/banderachm.png" alt="Bandera CHM" className="fixed right-2 top-2 h-20 object-contain" loading="lazy" />
           {/* Menú hamburguesa */}
-          <button
-            className="text-2xl top-1 md:hidden"
-            id="menu-toggle"
-            aria-label="Abrir menú"
-          
-            &#9776;
-           >
-          </button>
+          {/* Menú hamburguesa */}
+import React, { useState } from "react";
+
+const Header = () => {
+  const [menuAbierto, setMenuAbierto] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuAbierto(!menuAbierto);
+  };
+
+  return (
+    // ...
+    {/* Menú hamburguesa */}
+    <button
+      className="text-2xl top-1 md:hidden"
+      id="menu-toggle"
+      aria-label="Abrir menú"
+      onClick={toggleMenu}
+    >
+      &#9776;
+    </button>
+
+    {/* Navegación */}
+    <nav
+      className={`${
+        menuAbierto ? "block" : "hidden"
+      } md:flex space-x-6`}
+      id="nav"
+    >
+      <ul className="flex flex-col md:flex-row space-x-4" id="menu">
+        <li>
+          <a href="                                                
+            Indicadores
+          </a>
+        </li>
+        <li>
+          <a href="#nosotros" className="hover:text-yellow-400">
+            Nosotros
+          </a>
+        </li>
+        <li>
+          <a href="                                           
+            Estatus
+          </a>
+        </li>
+        <li>
+          <a href="#programacion" className="hover:text-yellow-400">
+            Programación
+          </a>
+        </li>
+        <li>
+          <a href="                                       
+            RE
+          </a>
+        </li>
+        <li>
+          <a href="#backlog" className="hover:text-yellow-400">
+            BACKLOG
+          </a>
+        </li>
+        <li>
+          <a href="#inspecciones" className="hover:text-yellow-400">
+            Inspecciones
+          </a>
+        </li>
+      </ul>
+    </nav>
+  );
+};
+
+export default Header;
 
           {/* Navegación */}
           <nav className="hidden md:flex space-x-6" id="nav">
