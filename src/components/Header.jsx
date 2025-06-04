@@ -17,7 +17,6 @@ const Header = () => {
             <a href="#" className="flex items-center gap-2">
               <img src="/logo75.png" alt="Logo MARC PALAS" className="h-15" loading="lazy" />
               Work Management
-              PALAS CHM
             </a>
           </h1>
         <img src="/logochm.png" alt="Logo CHM" className="fixed left-2 top-2 h-20 object-contain" loading="lazy" />
