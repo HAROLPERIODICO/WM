@@ -27,8 +27,9 @@ const Header = () => {
             className="text-2xl md:hidden"
             id="menu-toggle"
             aria-label="Abrir menú"
-          >
+          
             &#9776;
+           >
           </button>
 
           {/* Navegación */}
