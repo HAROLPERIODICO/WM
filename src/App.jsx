@@ -6,6 +6,7 @@ import Programacion from './components/Programacion';
 import SeccionRE from './components/SeccionRE';
 import SeccionBacklog from './components/SeccionBacklog';
 import Hamburguesa from './components/Hamburguesa';
+import Footer from './components/Footer';
 
 function App() {
   return (
