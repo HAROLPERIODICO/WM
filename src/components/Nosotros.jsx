@@ -46,7 +46,7 @@ export default function Nosotros() {
           </p>
         </div>
         <div className="md:w-1/2">
-          <img src="/pala800.png" alt="Nuestro equipo" loading="lazy" className="w-full rounded-xl shadow" />
+          <img src="/logo75.png" alt="Nuestro equipo" loading="lazy" className="w-full rounded-xl shadow" />
         </div>
       </div>
     </section>
