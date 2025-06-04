@@ -5,13 +5,14 @@ import Status from './components/Status';
 import Programacion from './components/Programacion';
 import SeccionRE from './components/SeccionRE';
 import SeccionBacklog from './components/SeccionBacklog';
-
+import Navbar from "./components/Navbar";
 import Footer from './components/Footer';
 
 function App() {
   return (
     <>
     {/* Aquí irán las demás secciones */}
+      <main className="pt-20">
       <Header />
       <Indicadores />
       <Nosotros/>
@@ -19,10 +20,10 @@ function App() {
       <Programacion /> 
       <SeccionRE />
       <SeccionBacklog />
-      
+      <Navbar />
       <Footer />
+      </main>
     </>
   );
 }
-
 export default App;
