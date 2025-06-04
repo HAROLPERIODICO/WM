@@ -23,12 +23,13 @@ const Header = () => {
         <img src="/banderachm.png" alt="Bandera CHM" className="fixed right-2 top-2 h-20 object-contain" loading="lazy" />
          
           {/* Menú hamburguesa */}
-            <button
-              id="menu-toggle"
-              aria-label="Abrir menú"
-            >
-              ☰
-            </button>
+          <button
+            className="text-2xl md:hidden"
+            id="menu-toggle"
+            aria-label="Abrir menú"
+          >
+            &#9776;
+          </button>
 
         
           {/* Navegación */}
