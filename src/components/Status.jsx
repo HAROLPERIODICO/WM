@@ -7,12 +7,8 @@ export default function Status() {
         <div className="text-center bg-white p-6 rounded-lg shadow max-w-xl mx-auto">
           <h3 className="text-2xl font-semibold mb-2">Equipos DOWN</h3>
           <p className="mb-4">Equipos que se presentan down</p>
-          <img
-            src="/logo75.png"
-            alt="Equipos DOWN"
-            loading="lazy"
-            className="mx-auto w-24 h-auto"
-          />
+          <img src="/logo75.png" alt="Equipos DOWN" className="mx-auto w-24 h-auto" loading="lazy" />
+          
         </div>
       </div>
     </section>
