@@ -6,8 +6,9 @@ import 'swiper/css/pagination';
 export default function Nosotros() {
   return (
     <section id="nosotros" className="py-12 bg-white text-center">
-      <h1 className="text-3xl font-bold mb-8">Nosotros</h1>
-      <h2 className="text-3xl font-bold mb-8">Marc palas entérate qué hacemos</h2>
+
+      <h2 className="text-3xl font-bold mb-6 text-center text-blue-900">Nosotros</h2>
+      <h2 className="text-3xl font-bold mb-4">Marc palas entérate qué hacemos</h2>
 
       <div className="slider-nosotros max-w-4xl mx-auto">
         <Swiper
